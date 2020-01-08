@@ -1,0 +1,141 @@
+{
+  "main": {
+    "name":"Connor Meth",
+    "occupation":"Software Engineer",
+    "description":"Description about myself",
+    "image":"headshot.jpeg",
+    "bio":"what technologies you like to use or feel most comfortable with, describing your personality.",
+    "contactmessage":"How to contact with you.",
+    "email": "connormeth27@gmail.com",
+    "phone": "908-698-1404",
+    "address":{
+      "street":"106 Clinton St.",
+      "city":"Hoboken",
+      "state":"NJ",
+      "zip": "07030"
+    },
+    "website": "http://www.timbakerdev.com",
+    "resumedownload":"http://timbakerdev.com",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/ccmeth27",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"http://skype.com",
+        "className":"fa fa-skype"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"Flatiron School",
+        "degree":"Software Engingeering",
+        "graduated":"September 2019 - January 2019",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school":"Quinnipiac University",
+        "degree":"Marketing",
+        "graduated":"May 2016",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work":[
+      {
+        "company":"Arteric",
+        "title":"QA Analyst",
+        "years":"October 2018 - April 2019",
+        "description":"resume stuff"
+      },
+      {
+        "company":"SportsRecruits",
+        "title":"QA Analyst",
+        "years":"December 2017 - August 2018",
+        "description":"resume stuff"
+      }
+    ],
+    "skills":[
+      {
+        "name":"Javascript",
+        "level":"75%"
+      },
+      {
+        "name":"Ruby",
+        "level":"70%"
+      },
+      {
+        "name":"Rails",
+        "level":"65%"
+      },
+      {
+        "name":"React.js",
+        "level":"70%"
+      },
+      {
+        "name":"React Native",
+        "level":"60%"
+      },
+      {
+        "name":"HTML5",
+        "level":"60%"
+      },
+      {
+        "name":"CSS",
+        "level":"65%"
+      },
+      {
+        "name":"SQL",
+        "level":"70%"
+      },
+      {
+        "name":"Postgres",
+        "level":"50%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Cinebinge",
+        "category":"Streaming Availability app that recommends Movies/Shows based on the user's subscriptions. Built with React Native and Rails",
+        "image":"canadian-wanderlust.jpg",
+        "url":"https://www.canadianwanderlust.com"
+      },
+      {
+        "title":"Odds Ticker",
+        "category":"",
+        "image":"original-thai-food.jpg",
+        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+      },
+      {
+        "title":"Hungry Hungry Jeff's",
+        "category":"A HTML game based on Hungry Hungry Hippos featuring my classmate Jeff alongside famous people named Jeff",
+        "image":"fury-fighting-gear.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"Resume Website",
+        "category":"A React based resume website template",
+        "image":"resume-website.jpg",
+        "url":"http://www.timbakerdev.com"
+      },
+      {
+        "title":"WeTrip",
+        "category":"(MVP Only) A community based travel app. Built with Ruby on Rails",
+        "image":"lets_trip_icon.jpg",
+        "url":"http://www.smirkspace.com"
+      }
+    ]
+  }
+  
+}
