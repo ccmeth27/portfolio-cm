@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   text-justify: center;
-  background-color: #121212;
+  background-color: #1F2930;
   color: azure;
 }
 
@@ -22,12 +22,13 @@
 .App-link {
   color: #fff;
 }
+/* Background Image HERE */
 header {
   position: relative;
   height: 700px;
   min-height: 500px;
   width: 100%;
-  background: #161415 url(./bg.jpg) no-repeat top center;
+  background: url(./dark-cyan.png) no-repeat top center;
   /* background: #161415; */
   background-size: cover !important;
  -webkit-background-size: cover !important;
@@ -39,34 +40,33 @@ header .banner {
   display: inline-block;
   vertical-align: center;
   margin: 0 auto;
-  height: 65%;
+  height: 25%;
   width: 75%;
   padding-bottom: 20px;
   text-align: center;
-  /* background: #161415 url(./sky.jpg) no-repeat top center;
-  border-radius: 25%;  */
-  /*background-color: rgba(0, 0, 0, 0.726); */
+  /* border-radius: 15%; 
+  background-color: rgba(0, 0, 0, 0.2); */
 }
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
   font: 80px/0.8em 'opensans-bold', sans-serif;
-  color: #fff;
+  color: rgb(255, 255, 255);
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
   text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
   margin-top: 100px;
 }
 header .banner-text h3 {
-  font: 18px/1.9em 'librebaskerville-regular', serif;
-  color: #A8A8A8;
+  font: 18px/1.6em 'librebaskerville-regular', serif;
+  color: rgb(255, 255, 255);
   margin: 0 auto;
   width: 70%;
-  text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 1.0);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-  color: #fff;
+  color: #009688;
 }
 header .banner-text hr {
   width: 60%;
@@ -177,39 +177,66 @@ header .scrolldown a {
 header .scrolldown a:hover { color: #11ABB0; }
 
 #about {
-  background: #181A1B;
-  padding-top: 96px;
-  padding-bottom: 66px;
+  background: #22272B;
+  padding-top: 10px;
+  padding-bottom: 125px;
   overflow: hidden;
+  border-bottom: 1px solid #E8E8E8;
 }
 
 #about a, #about a:visited  { color: #fff; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: -130px;
+  margin-left: 250px;
   font: 22px/30px 'opensans-bold', sans-serif;
   color: #fff;
-  margin-bottom: 12px;
 }
 #about p {
-  line-height: 30px;
+  display: flex;
+  margin-bottom: 100px;
+  padding-bottom: 60px;
+  flex-direction: column;
+  line-height: 20px;
+  margin-left: 320px;
+  padding-right: 65px;
   color: #7A7A7A;
 }
 #about .profile-pic {
+  display: flex;
   position: relative;
-  width: 120px;
-  height: 120px;
+  margin-left: 60px;
+  top: 80px;
+  width: 200px;
+  height: 200px;
   border-radius: 100%;
 }
-#about .contact-details { width: 100%; }
-#about .download {
-  width: 100%;
-  padding-top: 10px;
-  height: 30px;
+#about .contact-details { 
+  display: flex;
+  flex-direction: column;
+  width: 100%; 
 }
-#about .main-col { padding-right: 0%; }
+#about .download {
+  display: flex;
+  position: relative;
+  margin-left: -305px;
+  width: 100%;
+  height: 30px;
+  margin-top: -250px;
+}
+#about .main-col { 
+  padding-right: 5%; 
+  
+}
 #about .download .button {
-  margin-top: 20px;
+  margin-left: 38%;
+  width: 150px;
+  height: 30px;
+  padding: 10px;
   background: #444;
 }
 #about .download .button:hover {
@@ -217,12 +244,12 @@ header .scrolldown a:hover { color: #11ABB0; }
   color: #2B2B2B;
 }
 #about .download .button i {
-  margin-right: 10px;
+  display: inline-block;
   font-size: 20px;
 }
 
 #resume {
-  background: #fff;
+  background: #22272B;
   padding-top: 90px;
   padding-bottom: 72px;
   overflow: hidden;
