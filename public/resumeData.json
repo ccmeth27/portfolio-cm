@@ -19,18 +19,13 @@
     "social":[
       {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/ccmeth/",
         "className":"fa fa-linkedin"
       },
       {
         "name":"github",
         "url":"http://github.com/ccmeth27",
         "className":"fa fa-github"
-      },
-      {
-        "name":"skype",
-        "url":"http://skype.com",
-        "className":"fa fa-skype"
       }
     ]
   },
@@ -113,29 +108,23 @@
       {
         "title":"Cinebinge",
         "category":"Streaming Availability app that recommends Movies/Shows based on the user's subscriptions. Built with React Native and Rails",
-        "image":"canadian-wanderlust.jpg",
+        "image":"cinebinge.gif",
         "url":"https://www.canadianwanderlust.com"
       },
       {
         "title":"Odds Ticker",
-        "category":"",
-        "image":"original-thai-food.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "category":"A virtual “Stock Ticker” for sports enthusiasts. Displays pre-game betting odds, live scores, and fantasy sports statistics for multiple sports",
+        "image":"odds-ticker.gif",
+        "url":"https://sports-marquee.herokuapp.com/fantasy"
       },
       {
         "title":"Hungry Hungry Jeff's",
         "category":"A HTML game based on Hungry Hungry Hippos featuring my classmate Jeff alongside famous people named Jeff",
-        "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "image":"hhj-demo.gif",
+        "url":"https://ccmeth27.github.io/hungry-hungry-jeffs-frontend/"
       },
       {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"resume-website.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"WeTrip",
+        "title":"LetsTrip",
         "category":"(MVP Only) A community based travel app. Built with Ruby on Rails",
         "image":"lets_trip_icon.jpg",
         "url":"http://www.smirkspace.com"

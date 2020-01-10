@@ -335,7 +335,7 @@ header .scrolldown a:hover { color: #11ABB0; }
 }
 
 #portfolio {
-  background: #ebeeee;
+  background: #22272B;
   padding-top: 90px;
   padding-bottom: 60px;
 }
@@ -351,10 +351,11 @@ header .scrolldown a:hover { color: #11ABB0; }
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-  background: #fff;
+  background: #22272B;
   overflow: hidden;
   position: relative;
-  height: 10em;
+  height: 20em;
+  width: 100%;
   -webkit-transition: all 0.3s ease-in-out;
  -moz-transition: all 0.3s ease-in-out;
  -o-transition: all 0.3s ease-in-out;
@@ -383,7 +384,7 @@ header .scrolldown a:hover { color: #11ABB0; }
  -o-transition: opacity 0.3s ease-in-out;
  transition: opacity 0.3s ease-in-out;
 
-  background: rgba(116, 114, 114, 0.438);
+  background: rgba(10, 10, 10, 0.438);
 }
 .portfolio-item .item-wrap .link-icon {
   display: block;
@@ -411,6 +412,8 @@ header .scrolldown a:hover { color: #11ABB0; }
 }
 .portfolio-item .item-wrap img {
   vertical-align: bottom;
+  width: 20em;
+  height: 20em;
 }
 .portfolio-item .portfolio-item-meta { padding: 18px }
 .portfolio-item .portfolio-item-meta h5 {
