@@ -109,7 +109,7 @@
         "title":"Cinebinge",
         "category":"Streaming Availability app that recommends Movies/Shows based on the user's subscriptions. Built with React Native and Rails",
         "image":"cinebinge.gif",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"https://cinebinge-demo.netlify.com/"
       },
       {
         "title":"Odds Ticker",
