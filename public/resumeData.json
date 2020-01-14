@@ -2,9 +2,9 @@
   "main": {
     "name":"Connor Meth",
     "occupation":"Full-Stack Software Engineer",
-    "description":"I have experience with JavaScript, Ruby on Rails, React.js, and React Native. I've worked in all deparments of a software development team, providing me unique insight and understanding of the SDLC.",
+    "description":"I have experience with JavaScript, Ruby on Rails, React.js, and React Native. I've worked in all deparments of a software development team, providing me unique insight and understanding of the SDLC",
     "image":"headshot.jpeg",
-    "bio":" As a former college athlete and senior captain, I gained the knowledge of how to work within a team and also how to lead.",
+    "bio":"My main passions have always been sports and entertainment. Whether it was playing team sports like lacrosse and hockey, or individual sports such as skiing and golf, I always craved the competitiveness and thrill of victory that sports provide. Whenever I wasn't being active, my time would mostly be spent watching movies and tv shows or playing video games. These days when I'm not coding I play less team sports and video games, while skiing, golf, and watching movies/tv have become my main hobbies. A life goal of mine is to ski every major mountain in North America and Europe.",
     "contactmessage":"How to contact with you.",
     "email": "connormeth27@gmail.com",
     "phone": "908-698-1404",
@@ -14,8 +14,8 @@
       "state":"NJ",
       "zip": "07030"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "https://connormeth.netlify.com/",
+    "resumedownload":"https://connormeth.netlify.com/",
     "social":[
       {
         "name":"linkedin",
@@ -30,19 +30,19 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"During the Flatiron bootcamp, I learned Ruby, Rails, JavaScript, React.js, and taught myself React Native. I'm currently learning GraphQL and plan on starting Python after that.",
     "education":[
       {
-        "school":"Flatiron School",
+        "school":"Flatiron School - NYC",
         "degree":"Software Engingeering",
         "graduated":"September 2019 - January 2019",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"Attended the JavaScript/Ruby on Rails software engineering bootcamp at Flatiron School in NYC. It was truly one of the best decisions I've made in my life. I had always loved computers and technology but up until about 2017, software engineering seemed like a such a foreign concept to me that I never really considered it. Working as a Software QA Analyst prior to starting at Flatiron allowed me to dip my toes into programming by learning SQL and basic CSS/HTML. I dabbled with some introductory free courses (Python mainly), which was interesting but difficult for me to get through. That all changed once I attended Flatiron. From those lectures, labs, and working with my peers I gained a new approach to learning. Before I knew it, the 4 month bootcamp was completed and I was equipped with multiple languages and frameworks at my disposal, as well as the ability/know-how to learn new ones"
       },
       {
         "school":"Quinnipiac University",
         "degree":"Marketing",
         "graduated":"May 2016",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"Attended Qunnipiac University in Hamden, CT where I received my Bachelors degree in Marketing. I was a member and senior captain of the Division 1 Mens's Lacrosse team at Quinnpiac. During my senior season in 2016, we won the program's first conference championship and participated in it's first NCAA Tournament. Being a Division 1 athlete taught me a lot of valuable life lessons including time management, working efficiently in a team to achieve a common goal, as well as how to lead that team. Outside of athletics, my coursework taught me a lot about the business side of things. Although I realized shortly after completing college that Marketing was not the industry for me, it was an incredibly valuable experience with learnings that stick with me to this day. "
       }
     ],
     "work":[
@@ -61,7 +61,7 @@
       {
         "title":"Customer Success Specialist",
         "years":"October 2016 - November 2017",
-        "description":"Before transitioning to a QA Analyst role, I was the point of contact for user inquiries."
+        "description":"Before transitioning to a QA Analyst role, I was the point of contact for user inquiries regarding the platform and the company's events branch."
       }
     ],
     "skills":[
@@ -107,27 +107,21 @@
     "projects": [
       {
         "title":"Cinebinge",
-        "category":"Streaming Availability app that recommends Movies/Shows based on the user's subscriptions. Built with React Native and Rails",
+        "category":"Streaming Availability app that recommends Movies/Shows based on the user's subscriptions. Built with React Native and Rails. Also built the demo site to showcase the app's features.",
         "image":"cinebinge.gif",
         "url":"https://cinebinge-demo.netlify.com/"
       },
       {
         "title":"Odds Ticker",
-        "category":"A virtual “Stock Ticker” for sports enthusiasts. Displays pre-game betting odds, live scores, and fantasy sports statistics for multiple sports",
+        "category":"(MVP only) A virtual “Stock Ticker” for sports enthusiasts. Displays pre-game betting odds, live scores, and fantasy sports statistics for multiple sports",
         "image":"odds-ticker.gif",
-        "url":"https://sports-marquee.herokuapp.com/fantasy"
+        "url":"https://sports-marquee.herokuapp.com/"
       },
       {
         "title":"Hungry Hungry Jeff's",
-        "category":"A HTML game based on Hungry Hungry Hippos featuring my classmate Jeff alongside famous people named Jeff",
+        "category":"A JavaScript/HTML game based on Hungry Hungry Hippos featuring my classmate Jeff alongside famous people named Jeff. One and Two player modes are live (4 Players was a stretch goal) ",
         "image":"hhj-demo.gif",
         "url":"https://ccmeth27.github.io/hungry-hungry-jeffs-frontend/"
-      },
-      {
-        "title":"LetsTrip",
-        "category":"(MVP Only) A community based travel app. Built with Ruby on Rails",
-        "image":"lets_trip_icon.jpg",
-        "url":"http://www.smirkspace.com"
       }
     ]
   }
