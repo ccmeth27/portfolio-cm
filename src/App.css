@@ -201,22 +201,20 @@ header .scrolldown a:hover { color: #11ABB0; }
     flex-direction: column;
     justify-content: space-evenly;
     line-height: 23px;
-    margin-left: 320px;
+    padding-left: 325px;
     padding-right: 65px;
     color: #fff;
   }
   #about .profile-pic {
     display: flex;
     position: relative;
-    left: 5%;
+    left: 75px;
     top: 80px;
     width: 200px;
     height: 200px;
     border-radius: 100%;
   }
   #about .contact-details { 
-    display: flex;
-    flex-direction: column;
     width: 100%; 
   }
   #about .download {
