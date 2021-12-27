@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import resume from '../connormeth-resume.pdf'
+import resume from '../Connor-Meth-Resume-22.pdf'
 class About extends Component {
   render() {
 
@@ -40,7 +40,7 @@ class About extends Component {
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button" target="_blank"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href={resumeDownload} className="button" target="_blank" rel="noopener noreferrer"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>

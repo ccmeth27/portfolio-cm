@@ -47,6 +47,24 @@
     ],
     "work":[
       {
+        "company":"Acupuncture Center of NJ",
+        "title":"Freelance Web Developer",
+        "years":"October 2021 - January 2022",
+        "description":"Redesign of company website including improved functionality"
+      },
+      {
+        "company":"LyonShare Ventures LLC",
+        "title":"Co-Founder & Partner",
+        "years":"June 2020 - Present",
+        "description":"Started a subscription based service that operates primarily on Discord"
+      },
+      {
+        "company":"Flatiron School",
+        "title":"Full-time Student",
+        "years":"September 2019 - January 2020",
+        "description":"In-person Full Stack Software Engineer bootcamp, Ruby on Rails and JavaScript program"
+      },
+      {
         "company":"Arteric",
         "title":"QA Analyst",
         "years":"October 2018 - April 2019",
@@ -55,12 +73,12 @@
       {
         "company":"SportsRecruits",
         "title":"QA Analyst",
-        "years":"December 2017 - August 2018",
+        "years":"June 2017 - August 2018",
         "description":"Manually tested major new feature releases on all major browsers and operating systems"
       },
       {
         "title":"Customer Success Specialist",
-        "years":"October 2016 - November 2017",
+        "years":"October 2016 - June 2017",
         "description":"Before transitioning to a QA Analyst role, I was the point of contact for user inquiries regarding the platform and the company's events branch."
       }
     ],
@@ -79,11 +97,11 @@
       },
       {
         "name":"React.js",
-        "level":"70%"
+        "level":"75%"
       },
       {
         "name":"React Native",
-        "level":"60%"
+        "level":"70%"
       },
       {
         "name":"HTML5",
@@ -110,6 +128,12 @@
         "category":"Streaming Availability app that recommends Movies/Shows based on the user's subscriptions. Built with React Native and Rails. Also built the demo site to showcase the app's features.",
         "image":"cinebinge.gif",
         "url":"https://cinebinge-demo.netlify.com/"
+      },
+      {
+        "title":"Karl's Korner",
+        "category":"A food & travel blog I'm working on for my dad. Built with Gatsby JS and Netlify CMS. ",
+        "image":"kk-ss.png",
+        "url":"https://karlskorner.netlify.app/"
       },
       {
         "title":"Odds Ticker",
